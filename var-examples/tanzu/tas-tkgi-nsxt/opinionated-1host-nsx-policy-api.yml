@@ -1,4 +1,14 @@
 ---
+
+# The following route needs to be configured on the gateway:
+# 172.30.4.0/22 via 192.168.1.63
+#
+# Some important IPs attributed:
+# 192.168.1.60 tas-tkgi-nsx-vcenter
+# 192.168.1.61 tas-tkgi-nsx-nsxt-manager
+# 192.168.1.64 tas-tkgi-nsx-esx1
+# 172.30.4.2 tas-tkgi-nsx-ops-manager
+
 # SOFTWARE_DIR must contain all required software
 vc_iso: "{{ lookup('env', 'SOFTWARE_DIR') }}/VMware-VCSA-all-8.0.3-24022515.iso"
 esxi_ova: "{{ lookup('env', 'SOFTWARE_DIR') }}/Nested_ESXi8.0u3b_Appliance_Template_v1.ova"

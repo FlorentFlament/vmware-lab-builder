@@ -28,7 +28,7 @@ flowchart LR
   style vcenter fill:#0c0
 ```
 - A single vCenter will be added.
-- Within the nested host the `vm-network` port group can be use to attach VMs to the routed network that has been passed through.
+- Within the nested host the `vm-network` port group can be used to attach VMs to the routed network that has been passed through.
 
 
 

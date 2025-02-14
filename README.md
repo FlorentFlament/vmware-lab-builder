@@ -33,6 +33,8 @@ Infrastructure:
 - [ESXi OVA images](https://williamlam.com/nested-virtualization/nested-esxi-virtual-appliance)
 - [vCenter ISO](https://my.vmware.com/en/group/vmware/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0) - For command line downloading see [vmd](https://github.com/laidbackware/vmd)
 
+Note that the default opinionated configuration assumes that the physical ESXi is living on the 192.168.0.0/22 network, with the gateway at 192.168.0.1, and that only IPs below 192.168.0.160 are in use. This can obviously be customized.
+
 ## Status and Versions
 
 This release has been tested with the following components and should be backwards compatible.</br>
